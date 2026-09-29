@@ -1,0 +1,22 @@
+name: 译文检查
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 检查译文（镜像完整性、front matter、术语一致性、结构卫生）
+        # 不加 --strict：error 必须清零（缺页、front matter 坏了、正文混进 `#` 标题、
+        # 勘误标记不成对……）；advise 是给人看的信号，note 是已知基线快照，都不该卡住
+        # 贡献者的 PR——判断留给 review。
+        run: python3 tools/check_zh.py
