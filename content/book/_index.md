@@ -14,7 +14,6 @@ cascade:
   section_index: list 
 ---
 
-理查德·A·巴特尔（Richard A. Bartle）《设计虚拟世界》（*Designing Virtual Worlds*）全文，2003 年首次出版，现依 CC BY-NC-ND 4.0 许可发布。版权页保留原始条款。
 
 ## 目录 {#contents}
 
