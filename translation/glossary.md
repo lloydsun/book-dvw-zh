@@ -84,7 +84,7 @@
 | Northwestern University | 西北大学 | 地名（院校）；美国伊利诺伊州 |
 | Dundee Technical College | 邓迪技术学院 | 地名（院校） |
 | Oslo University | 奥斯陆大学 | 地名（院校） |
-| Den Danske Datalogisk Institutved Københavns Universitet | 哥本哈根大学计算机科学系 | 地名（院校）；源文括注照译 |
+| Den Danske Datalogisk Institut ved Københavns Universitet | 哥本哈根大学计算机科学系 | 地名（院校）；正确写法是 `Institut ved`，源文 01-06 排成了 `Institutved`（缺空格，PDF 转录痕迹），译文按正确写法落笔 |
 | Sweden | 瑞典 | 地名 |
 | Denmark | 丹麦 | 地名 |
 | England | 英格兰 | 地名 |
